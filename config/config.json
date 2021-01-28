@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "automations-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/automations/AutomationsWebPart.js",
+          "manifest": "./src/webparts/automations/AutomationsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AutomationsWebPartStrings": "lib/webparts/automations/loc/{locale}.js"
+  }
+}
