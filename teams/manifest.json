@@ -1,0 +1,44 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1.0.0",
+    "id": "3e195912-20f3-4062-8c07-f440b5ee0e88",
+    "packageName": "com.teamsApp.Package.Personal",
+    "developer": {
+        "name": "HalStead Manufacturing",
+        "websiteUrl": "https://simpleiddemoaccount.sharepoint.com/",
+        "privacyUrl": "https://simpleiddemoaccount.sharepoint.com/",
+        "termsOfUseUrl": "https://simpleiddemoaccount.sharepoint.com/"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Automations",
+        "full": "Automations for PowerApps"
+    },
+    "description": {
+        "short": "descriptions about list of automations",
+        "full": "automations for daily"
+    },
+    "accentColor": "#781EFC",
+    "staticTabs": [
+        {
+            "entityId": "1000001",
+            "name": "Automations",
+            "contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=3e195912-20f3-4062-8c07-f440b5ee0e88%26forceLocale={locale}",
+            "websiteUrl": "https://simpleiddemoaccount.sharepoint.com/",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+
+    ]
+}
